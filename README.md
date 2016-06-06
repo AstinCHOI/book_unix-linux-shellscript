@@ -4,13 +4,16 @@
 ## Prologue
 ##### Check Login Shell
 .. code-block:: bash
+
     $ echo $SHELL
     
 ##### Check File Format  
 .. code-block:: bash
+
     $ file script
     
 ##### Check Syntax  
 .. code-block:: bash
+
     $ sh -n script.sh
     
