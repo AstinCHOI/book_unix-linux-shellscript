@@ -6,7 +6,7 @@
 
 a_flag=0
 separator=""
-while getopts "ap:" option # a option and p option with param
+while getopts "ap:" option # a option and p: option with param
 do
     case $option in
         a)
@@ -22,7 +22,7 @@ do
     esac
 done
 
-shift $(expr $OPTIND - 1)
+shift $(expr $OPTIND - 1) # for the potion parameter
 path="$1"
 
 if [ $a_flag -eq 1 ]; then
