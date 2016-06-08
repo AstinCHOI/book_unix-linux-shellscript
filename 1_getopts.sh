@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Use: getopts, case, shift
+
 # ./getopts.sh -a -p '======sep======' /home/user1/docs
 # . .. a.txt readme.txt
 # ====== sep ======
