@@ -11,3 +11,5 @@
 ##### Check Syntax  
     $ sh -n script.sh
     
+## [002] Check Signal
+    $ kill -l
