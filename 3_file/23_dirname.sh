@@ -2,12 +2,15 @@
 
 # Use: cd, dirname
 
-cd "$(dirname "$0")/example"
-# cd "${0%/*}/example"
+echo "\$(\dirname \"\$0\"): $(dirname "$0")"
+echo "\${0%/*}: ${0%/*}"
+
+cd "$(dirname "$0")"
+# cd "${0%/*}"
 # ${parameter%word}
 
-./start.sh
-./end.sh
+./../example/start.sh
+./../example/end.sh
 
 # START
 # END
