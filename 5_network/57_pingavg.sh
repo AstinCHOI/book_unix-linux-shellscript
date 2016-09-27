@@ -15,5 +15,7 @@ ping -c $count $ipaddr > ping.$$
 # extract "time=4.32 ms" by sed | average by awk
 sed -n "s/^.*time=\(.*\) ms/\1/p" ping.$$ | awk '{sum+=$1} END{print sum/NR}'
 
+## NR: num of line
+
 # remove temp file
 rm -f ping.$$ 
