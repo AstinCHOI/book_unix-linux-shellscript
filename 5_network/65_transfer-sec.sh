@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Use: dd, time, ftp, bc
+
 filesize=1024
 
 tempdata="tmpdata.tmp"
