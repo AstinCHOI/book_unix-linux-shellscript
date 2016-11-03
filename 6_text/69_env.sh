@@ -13,7 +13,8 @@ envname="TMPVAR"
 env | cut -f 1 -d "=" > env.lst
 
 # check env variable as env.lst
-# return 0 if matched string 
+# return 0 if matched string
+# -q option: not print
 grep -q "^${envname}$" env.lst 
 
 if [ $? -eq 0 ]; then
