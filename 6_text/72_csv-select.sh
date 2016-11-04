@@ -2,6 +2,8 @@
 
 # Use: cut, read, echo
 
+# Run ./script ID
+
 csvfile="data.csv"
 
 if [ -z "$1" ]; then
@@ -27,4 +29,3 @@ do
     echo "$name"
   fi
 done < $csvfile
-
