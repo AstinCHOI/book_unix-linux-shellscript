@@ -13,7 +13,7 @@ IFS='
 while read -r line # -r option: literal
 do
   # get MD5 hash
-  # extract 1st column
+  # extract 1st column from md5 command
   /bin/echo -n "$line" | md5 | awk '{print $1}' >> $tmpfile
 
   ## in linux (md5 to md5sha1sum) 
