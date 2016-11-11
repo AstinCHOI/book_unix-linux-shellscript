@@ -1,0 +1,3 @@
+xx.xx.xx.xx - - [06/Jan/2016:12:12:12] GET / HTTP 1.1 200 82 "-" "-"
+yy.yy.yy.yy - - [06/Jan/2016:12:12:12] GET /index.html HTTP 1.1" 200 534 "-" "-"
+zz.zz.zz.zz - - [06/Jan/2016:12:12:12] GET /title.gif HTTP 1.1" 200 323 "-" "-"
