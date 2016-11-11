@@ -5,7 +5,7 @@
 logfile="access_log"
 
 if [ ! -f $logfile ]; then
-  echo "$1 doesn't exist." >&2
+  echo "$logfile doesn't exist." >&2
   exit 1
 fi
 
