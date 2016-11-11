@@ -2,11 +2,9 @@
 
 # Use: awk
 
-# Run: ./script access_log
-
 logfile="access_log"
 
-if [ ! -f "$1" ]; then
+if [ ! -f $logfile ]; then
   echo "$1 doesn't exist." >&2
   exit 1
 fi
