@@ -1,0 +1,16 @@
+[Script start]
+2016년 11월 28일 월요일 23시 54분 18초 JST
+86_here-indent.sh
+87_sig-usr1.sh
+88_sig-hup.sh
+89_sig-exit.sh
+90_exec.sh
+91_time-scp.sh
+92_os_command.sh
+93_echo-redirect.sh
+calcA.sh
+calcB.sh
+output.log
+setting.conf
+uptime.log
+[Script end]
