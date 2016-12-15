@@ -16,7 +16,7 @@ else
   exit 1
 fi
 
-## package include?
+## package include file?
 # rpm -qf ..
 
 ## package include file list
