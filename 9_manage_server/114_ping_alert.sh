@@ -35,3 +35,9 @@ if [ $result -eq 0 ]; then
 else
   echo "[$date_str] Ping NG: $1"
 fi
+
+## not to response ping in linux
+# echo "1" > /proc/sys/net/ipv4/icmp_echo_ignore_all
+
+## to response ping in linux
+# echo "0" > /proc/sys/net/ipv4/icmp_echo_ignore_all
