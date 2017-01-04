@@ -19,7 +19,7 @@ fi
 
 today=$(date '%Y%m%d')
 
-$MYSQLDUMP -h "${DBHOST}" -u "${DBUSER}" -P"${DBPASS}" "${DBNAME}" > "${BACKUP_DIR}/${DBNAME}-${today}.dump"
+$MYSQLDUMP -h "${DBHOST}" -u "${DBUSER}" -p"${DBPASS}" "${DBNAME}" > "${BACKUP_DIR}/${DBNAME}-${today}.dump"
 
 if [ $? -eq 0 ]; then
   gzip "${BACKUP_DIR}/${DBNAME}-${today}.dump"
